@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg {
+    background-image: url('https://res.cloudinary.com/dp0ed3fv9/image/upload/v1631458769/Btc_o98q68.jpg');
+    background-size: cover;
+    height: 67vh;
+    width: 62%;
+}
+
+.cm {
+    color: #959ead;
+    margin-left: 400px;
+}
+
+.navbar-image {
+    width: 60px;
+    height: 60px;
+}
+
+#navbar-text {
+    color: #425664;
+}
+
+.wid {
+    width: 40%;
+}
+
+.wid_1 {
+    width: 600%;
+}
+
+.car {
+    height: 67vh;
+    width: 38%;
+}
+
+.car_image {
+    height: 70vh;
+}
+
+.l_card {
+    border-radius: 10px;
+    background-color: #D48166;
+    margin: 8px;
+    color: #1c1503;
+    font-family: Bree Serif;
+    width: 380px;
+}
+
+.center_card_color {
+    background-color: #C6AD8F;
+}
+
+.alt_card {
+    width: 200px;
+}
+
+.cul {
+    background-color: #E6E2DD;
+}
+
+.col_text {
+    color: #fff9eb;
+}
+
+.text {
+    color: #e1e5f5;
+    font-family: Bree Serif;
+    width: 280px;
+    height: 300px;
+    padding: 10px;
+    background-color: #15959e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 5px;
+}
+
+.tcard {
+    margin-left: 350px;
+}
+
+.head_col {
+    color: #f2f2f2;
+}
+
+.l_t {
+    text-align: center;
+}
+
+.l_bg {
+    background-color: #373A36;
+    background-size: cover;
+}
+
+.sze {
+    width: 800px;
+    padding: 13px;
+}
+
+.v_mar {
+    margin: 5px;
+}
+
+.txt_al {
+    text-align: center;
+}
+
+.sze1 {
+    width: 400px;
+    padding: 13px;
+}
+
+.height {
+    height: 67vh;
+}
+
+.side_col {
+    width: 150px;
+    margin-left: 90px;
+}
+
+.img_crd {
+    height: 139px;
+    padding: 5px;
+    width: 140px;
+    margin: 5px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}

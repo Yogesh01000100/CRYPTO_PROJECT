@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="crypto.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+<!---->
+
+<body>
+    <!--#929611-->
+    <div>
+        <!--<nav class="navbar navbar-expand-lg navbar-light cul">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6rDvg1kbzy7SDg_0sVP5vGSOc2IV7VY16zA&usqp=CAU">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" href="#">History</a>
+                        <a class="nav-link" href="#">Podcasts</a>
+                        <a class="nav-link" href="#">Altcoins</a>
+                    </div>
+                </div>
+        </nav>-->
+        <nav class="navbar navbar-expand-lg navbar-light cul" id="navbar-text">
+            <a class="navbar-brand" href="#">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/navbar-logo-img.png"
+                    class="navbar-image" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-l">
+                    <a class="nav-link active" href="#">
+                        Home <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#">Bitcoin</a>
+                    <a class="nav-link" href="#">Altcoins</a>
+                    <a class="nav-link" href="#">Podcasts</a>
+                    <a class="nav-link" href="#">NFT's</a>
+                </div>
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+    <div
+        style="height:100px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 0px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; block-size:62px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 0px; margin: 0px; width: 100%;">
+        <div style="height:80px; padding:0px; margin:0px; width: 100%;"><iframe
+                src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="
+                width="100%" height="36px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0"
+                style="border:0;margin:0;padding:0;"></iframe></div>
+        <div
+            style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 24px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+            <a href="https://coinlib.io" target="_blank"
+                style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency
+                Prices</a>&nbsp;by Coinlib</div>
+    </div>
+    <!--<div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+            <p class="banner-caption mb-4">Eat Smart & Healthy</p>
+            <button class="custom-button">View Menu</button>
+            <button class="custom-outline-button">Order Now</button>
+        </div>
+    </div>-->
+    <div class="d-flex flex-row justify-content-center">
+        <div class="bg">
+            <div class="d-flex flex-row justify-content-start">
+                <div class="d-flex flex-row justify-content-start">
+                    <div class="text">
+                        <!--#15959e-->
+                        <h1 class="head_col">BITCOIN</h1>
+                        <p>Bitcoin is a decentralized digital currency, without a central bank or single administrator,
+                            that can be sent from user to user on the peer-to-peer
+                            bitcoin network without the need for intermediaries.</p>
+                        <button class="btn btn-warning">More</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end cm">
+                    <p>pragma solidity ^0.8.4;<br>
+                        error NotEnoughFunds(uint requested, uint available);<br>
+                        contract Token {<br>
+                        mapping(address => uint) balances;<br>
+                        function transfer(address to, uint amount) public {<br>
+                        uint balance = balances[msg.sender];<br>
+                        if (balance < amount)<br>
+                            revert NotEnoughFunds(amount, balance);<br>
+                            balances[msg.sender] -= amount;<br>
+                            balances[to] += amount;<br>
+                            }<br>
+                            }</p>
+                    <!--<ol>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                        <li>Bitcoin is a decentralized digital currency</li>
+                    </ol>-->
+                </div>
+            </div>
+        </div>
+        <div class="car">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 height"
+                            src="https://images.news18.com/ibnlive/uploads/2021/03/1616122345_untitled-design.jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 height"
+                            src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f90430530b8614f6b0bdd55%2F0x0.jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 height"
+                            src="https://www.planetcompliance.com/wp-content/uploads/2021/01/image-from-rawpixel-id-474791-jpeg-scaled-1.jpg"
+                            alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 height"
+                            src="https://external-preview.redd.it/CwjaWDWd0F2__Nmf6HEIIo5hp5EB1mroucX2X4oeato.jpg?auto=webp&s=a8b05bb1551e054c3dab1444937349152283320a"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="l_bg pt-4">
+        <div class="d-flex flex-row justify-content-center">
+            <!-- <div class=container-fluid>
+                <div class="row">
+                    <div class=col-3>
+                        <h1 class="head_col">ALTCOINS</h1>
+                        <p class="l_card alt_card">
+                            Bitcoin is a decentralized digital currency, without a central bank or single administrator,
+                            that can be sent from user to user on the peer-to-peer
+                            bitcoin network.
+                            Bitcoin is a decentralized digital currency, without a central bank or single administrator,
+                            that can be sent from user to user on the peer-to-peer
+                            bitcoin network.Bitcoin is a decentralized digital currency, without a central bank or single administrator,
+                            that can be sent from user to user on the peer-to-peer
+                            bitcoin network.</p>
+                    </div>
+                </div>
+            </div>-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <!--card start-->
+                        <div class="d-flex flex-row justify-content-start wid">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="d-flex flex-row justify-content-start l_card center_card_color">
+                                    <div>
+                                        <img src="https://res.cloudinary.com/dp0ed3fv9/image/upload/v1631644491/eth_dgb4t8.png"
+                                            class="img_crd" />
+                                    </div>
+                                    <p class="l_card center_card_color">Bitcoin is a decentralized digital currency,
+                                        without a central bank or single administrator,
+                                        that can be sent from user to user on the peer-to-peer
+                                        bitcoin network.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="d-flex flex-row justify-content-start l_card center_card_color">
+                                    <div>
+                                        <img src="data:image/png;base64,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"
+                                            class="img_crd" />
+                                    </div>
+                                    <p class=" l_card center_card_color">Bitcoin is a decentralized digital currency,
+                                        without a central bank or single administrator,
+                                        that can be sent from user to user on the peer-to-peer
+                                        bitcoin network.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card end-->
+                        <div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="d-flex flex-row justify-content-start l_card center_card_color">
+                                    <div>
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABL1BMVEXy8vL///8ildT//v/29vb8//////v///339/f8/Pz//f////rw8PD9//718/L5//8jlNry8+0Ajc7p9PceldCKx+H59vPN5vC/2+v28ffz///v8/YHjsv/+v8zl9AilddwstgAjM////Qamdfo+v/68Ozs9fL17/ra7/S53ep0sc3C5vLm//8XmN4Ai70Aj86p0eEflOKVyNw9nccqjMI5ntTd9fn87u3w8fr38urr9+plpcY2krgLhsqv1++NutQjkOJ5rdlersk7j7knksGUydLK7fAtiL9Joc56u9+gy9/c6uyt4PNYqtRks9h6wN1TptinyuZLltNUqcMtotqkxN6RvtFupMPB6/qg1u/K5OgTkbtSpMnc5/YWgbUAgM/59eF+ws3E1uxBpsxot+N+4S4zAAAeDklEQVR4nO1dCXvaxrpGEpJAilbEosWShUBmEyAsMLKD3dbUxiS2k3PTnCZ1enPa/v/fcL8RXrCNMPYB2+3lbZ8kaH/n20czo0RijTXWWGONNdZYY4011lhjjTXWWGON/z94k0gmkylAGgH9A37D1n8IksALmwXgmnzph/tvAeRmcrvF829KEzRwAXY3LBN/M5198xh61yT/RhyTj6V3STL5N+GYehK9CVIv/fAL4GnimxLkK1fW/5bfhOPrxTL4vWaO/4393cVrtMfkEvlFHF+ZOT4xPszD63I5yxbgBK9IjMsX4ASvxeOsRoATvIqkfJku9D5egVNdlYZe4cU1dcX8EF6U3ypN8AYvaIzPQ/AFjfG5CL6YFJ+P4AtJ8TkJvogUn0qQpv8mFJ9EkKQImqUZjZi9myAFMmbX81N8mgQ5VmufdBpYDA16vnyfl+F8JnF5DqXtDfzW20zM7gcYPivFJ6ZqVHXg4Z5Vi+FHkhhBzTn9GRO4uck2qOL+QVUokvc5UAe+9Zv4w5/C/bMIEqv/eFKi57bds1Gcb4QcdTJQjDE7i+FYtnDR+mmGHaapfODjhxoz99rPFBYf8DLpRtNTvECYIQ26dIj7eDNfvG9vVHHTGorW+IFY8jwO9QEjpBtNCzGc8aw01ju/qOU3du/v4qgDHPdahYei5TPwe/NQxUvRJ7Iif6FmNATH0Bxw4WaoIkNmhj+09h7Q0mcxxQcjIUmQ9Z+PBCo+ds9CkSK1r18F+iGGz6CnDwYKtshubGww1AyHOQc0gZEkw9D3/dNdrJrgw70yDCcQDEUt8Kx3ONIcx9IPS37F/nShbI0UBI4kHtS3W6A4jgIpYguctVqGCyQzLEVTEN5IgsDgf26+KDmG4JBzImiKIdMbDLZA5bFSZ7Nwwk1TJFQRQJfl5h5HMRTLQD5KE0UGm5exTWOVzmZRgmlCoNlG+2BcwuYbJEMWKVRv5LEiu7her4zfm4VFSJEcdRTYvn1c59h5BzIC2wtsURxkSZZcmOHqnM2iT4BRAsuOLBzHxaDBTj34PSsDK9y0cFPB5Tw9p/q9i1URXLz/Hkyw0sQRWu2pJJRhtWq2nSGLBIp+aItQzNgKOs44mVGMxGJVQly8KqRJOm+jB7da46nkhqpst3w76HDXm2i2ZyNZ4+IJPd8n3cZqCD6m54KEJ0cP7hn5qSDeG1q4gzvG+KYpWO1QRAfabZJ6cSE+orCHWMHVEEX7gqRugsABmJxj4lYTuBARcZoSqgMk6w8aWXxEnreSmBgvQlIg7zQ/xZGUdm7YxkmDmGK47SuKD3SMdyQ9YQgU6fddWz5tsNgdGbIcycUr7ipiYryfoViamhETipl85rbzNEVcERXck9+R1M0eiqtUZpxOQP4e711XIcTYm2ECNP4MDYPslOJu9bttOqLlIIYaOeV/OE4QZp0ORcoc57N8gnP8DFvk6OL9zQRD3JFBJbDAcTpGB+2dPnBWrKcEjaPTsVJcvq+Z42e08ei0OuMROYG7raXF94YiykZNA9neuFgK5d73T6+PjFE+/qbLV9OYG1EgwTPbsuw2x2gxCRr4IZqi0jTUR73OeTaPsVDqshQVm5bTLFGsDJBLyheZOA+7bIJxfoZLcxkDufuhRjExpQ94VgFslWIhHadomtmAApkEAMW4dmPYkyjpq2FknC0uW03jlFRIc1H2YtkZdiMmZAtQSYHIOJKE2EAjugIHbgS0OOYEgmK4zYjhGdwgpt2WraYxBEGG1JUM00JMgbeBafl8pYECIykwGwTBoC2FfI+MqwhZptiOEgbI+WIzneUSjPWkHMbRWVkUjQJJTLpIOYYB2ZCTqokmySLWO/8tsAfG6a8CRdFFTiuSvfOhYdvGaF+jMJK+PBD+JCfVBw3WLZza4mBTY+MZLjfozy0ryGq2U7kOfFAaMhtskeImD85R1eOWpeAQJ44PNIygwR4vtzj4YE/DJoIkSRYwLTEqP86Td+PNNJarpnNz0mKRoW9qJAL8h6Zxk5AucEQ9UERRUXAHCNUgF6OxujHZAqHR3tMmWR1D01pJm36/9mC5uFyGc29FcsxU2zNE/qffglpvIhpKCyzHAonhCi76RpWjYYuHtiCKjmePJzJkG+fBcXBQumkpLp1+oKBapprOL5wIjJtKwui2IYqe2DyKdlHtFg5kQGjgjXDvAkvTVcOCTbjSBc0d+sdaxKlxKHqKJW43rq8zP/NeNsOHqvtph14ZoOwatxQtJ0AA+YBHNXwES5ErNHY6tUXBjXwkw6ztQTt49jl2VVg9jGWq6WPe+Xb8iCEuV2msSGiGZU0xtAuYYFrTDFv70VlQG+MeHBGAd37tDM99fMIwi9FFsjHNEFfsfUwIPHwaH6OzQIS4b5mWDSFnUYbLjIiPIIgd+OaEYTuSoXkjMKSlBYy8LUNj8spQgdLRQpkoubiWLtMQH8MwP3DwoSJahpaG7Au7EBXnio/pGeBiN62ISyRaxTF6UWpwIHvKtiK2TjAsbjDKKhk+avQMeTCwcN9vtqMfVBuK3muJiT+CU6rKuHjFEBcvyMgEStu+54j+n6XH3Gp5yfejBjozWgdytOGkYNxghW3xWif9Zp4RNsgLD1X6EbzB10k/Kd04kAfHB41HjQlbnqt5FEMCo7Vej5zUdQRFHwXXrkb+GUo/hugdGleaG3SEyyKRQDkNykhfhOHjBggRDNQOQAS99BQYoKjIuANaKdsdhiFZgij2RoYlIt52p5gmWZSqkRsclaYI5jHdwi/GEEBvECwD1SAFQoFSo31hDAbdWu96P1k9Vexg+7yHMnGOpaEdyLlZdgxejiEraEWqqFWzBwf7JVTia72GdtNbRRfhAN3VsFxR2z/f/HGch4KDesKwzKUxfPSdIadMC18Cu6U4YnCuU1B8gNre9FkwBMWyQrGotYOWZThKMKoI7IxRVK+XIUHS5LnteZYlArZ7G6RAkFOdoqCPAgFaedCCjNxBxzTrd/u8X5YhzYLZkKQw6boG98FAeT7tBgU2K0MBERVJjjjUWAaMcqqbm6UYENkXIzoGig7FC3o3kZ5MoxITAy90+VuAFpuVCKyOIaTH8MBXvYEUi+XPP9TqwrUa0mRmMJWO2p9njECgSC24OcTBazcj4dJ0rxYE2cZk/BB4LJZGoxmelSFJkflqozh5XVRMF5qgkXL7ejcrnItTyacXzOhKJbC2Ik4dI9+8vGB7geV58najeMmwMT74OkuHV8iQwE4GtvFrMRLihjZ0RCjujq/DAatNp9cQ6uuzGJ46N0couNi+OaYG2m0qcmdyMarRFcXj+gxnu0KGWE/2htbepJuBOgr8TxaUr/tXe2lNniZoGjM6/Tn2X1b3puww7ez1Li3wFN9SxL3JgXTecBxxc4YQV8mwYgPDy6yZqBu+Ym3j4vW7XbrRVG7sUFHs6v32J6l/OdPN0OrcYuiJprVHThhWUC6/OSPdWSFDRhj54uALO+khbQSKMoQs+vpFCmipN1XaO0b9/iUI7MKZskNxqhXIE9sEXGopRmn/o4jHR+yzailDNz7XqsLE07DYWPF93/jpWo8ocvPm4XHR+a1x//0ZQ3amPY1v9K7DDVsatjyrNZr4J4EmtGq7NOsFxgoZEkCLZIuTUWvptLBvNt92btw9SeVvRYsD8n77s7eihSLWhOtWAOeZHV2MtckrC5KGqAHhdJUM7+elKACjQTFRsxMQ8VHGQlw/g8DSm1ADIjOzcMcKemg431SPIxq5WLyM+BOC1vF0xKeKkEFgbHpSgU2GFc8qrFbI8AEQFNG4sD2U0qDAdlSEJI2cGs7AoRdSKGuzrahDw/KelLW9ZPVEMxvagYFqQOX4Q4aERJvYIKbyUgJKY6HIau8DWzFsyLx7T8m8X6jGjxgKAlRIpfH56WmnDkklppVKAnXzrn8DIzVdEJgNqLDOT07GFY19SvW0vH6aR8/jIjAqLaD3oRwNxSBW3zTl1qijXfHHyK8/mVABZ0uQ0+ZyfCqh5oQnVMAvxFBAYzDS0ZQDyJfBaZROI3XFZbnKpMk02nIW9ROLljHG1I1yOpVOCDmOQmNoHzX+/YX6SwUKlT4EFjlWgSEa24Z12ctt/CzQAsOgLag/EXgHWa2YSSXfpJI5WutpMwdlxGN5BBdjmMZSyRTqfaqfHgcXR5FZQYjcA095GRuj3kQGq4nRFnChlj+osnoq9SbF9w4GxvGPvbnjbVfIcEFnmkT6TL83PNHzgijZpqi6PJWg+hfCRvrI8G8KCrFbohLJdKJ08YP4yRffPqZHeJlvZhZ0pkk0TroU4KIJNtbUaJKlqBoKipeEhqJRSdPnVz36XSgtlEE9TKVSWEfxIbV1lFNs8anC6SWu7rKAq0mjpR/RgW28i6pfB2+niSLDjRzzkqFpKqazz9Ij5HWcrqJ0TfjPGmPJZBoDsp+soNs1NAiVFFpHcoEGXR7BRQwxAfRQU6Sz+CFUv58U4yCXKzKZoRIANUQnMLtd+RdBGIJUP5mBY3QDJQisX2hEJ/gUwH7DUN5BQpRMLURxmQQfNsQkApJh6hd8JCqfQBzjXJLd0oefTAMYQjHUhX84H1PCCLe6wAYYmp9AhhOGo8BERbR3rKWwnAQM0w8vzLRUhg81KOgoPBFiyOdlxQc6gZLJCayaO221ugZwO/7UslrdQSFkz0Bhg0+QdANlsMMqCwzTHcUbmtAwm1oqzUuotfiHrHG5w77mGiJFYWkJvAVimOY3OoZlms6wQ6bA26V/sfFu0DWcoIt3D52gEeaqtmIGXUs0kKdxRqUcsuDSqa10FfywB2yRLqSSUJrFDfiaYMnDhOfdiuSIHJ8EE0wihkVhf9gcXrRdoEy4udIQSnzTALXFTdwca2Ve2zacqKzqdhXR/CxEPiosdQ7Nw04p5IEhXCdJCGRanZvHLZfhm3lGgapvZIYJpG5JNUkKpZ6W2kG/3FyueuwYn5QukqG8p+V4nsoPTfSOFMnW2dNSTLT+bo6FnIZlQXoY/AYZ5qhymZ9z12WP3JunppRWrWp85GvSSI5QO+XCnI6MiVJ5oRAcRwyt4N89NpcQ+Fzh924LZIh/+v3fpVxaQDLUU4iRROrIHUdeSysctDNzZq8vfZBwzH3QvN5fA9sO8lJZQ82QlFIbpIBJkgtCTdNMMkwd1ZqtlhkMv5SSbC6U6Jzeqw1bLcU4/KIl0ySJnFQOOSpdIHkUJdI5VSLPDNE47NFEnC0ufbR+TGNyBMeZKMk81NjbdcHNCQxWKnzczwtENPkSDaaNRl8W8tqMPBudxhQZqiDj0QjauFUWlj8KOi5eMEIlmh0jV8iNmIcROIotsjRVZCBd4Tj0NhRji0UWts4+YaPIMedRYv4Bjpx9zAoW5ItjyPVQa1tyj2NiGFJo+gizwUSFP8cW6WjcL0eit+Gzr8ly2BjNhxI3Y2W4dH5xQqQIgT0FivKpRmkzj0BjRwmCIQUqHY1kR7Mu0dh2LH4KLckybKnVgoKyHnW6zcAqZpTEe9NSraXU7odnKo1Nz0bgMJrKyrLYMr5c9V5PXntARcnNEFRv0zzNx84LXslM2VjHnUavM+/vBeu70xFfPbaguHeO77ynIWbOGymC54oNFquZ7RwrREGYOXNC4Og7s31GFmJoid07LcHNmkorYNjdCWM3WNFk51ghojUU7m/N0dqdfiU0dNazLM+4tZVlK5kZTpVCiLnhqiasxwUMND/ktgxhA4W9HxnDrEZP9YM20SBSy3Ka1+ZF0Cz5a3dgnPbAZG9fgybj+91WNtV54b5v8B1s4Ri3LHtPm+qT+CA6w+HQmdZSmjr6HSUMwxL9iH62VRF8RL8pyWpdHL2aMdpTYyiqhif6ojP1RlhgsIvoXbf4GeMW7vRe4ZIDCwsRzQNGnaSOdXIjQxprB6JvN99PvYRitGHUmepdYOyC8/HTq1wZY1EhUgJWQb2IFt46Z6+Vj2aFzPi8nRFu/ApBa28nHW8/0Q+uvnOFVa5uMrdMvMWQ5T6grnzPyM8d8suRxQNUKlqDNrbAyi0RVrzM0KIMSaoX2L4/OBBmvbu9Ak0JVGk08EW7Fjd58T5WvMrQYn3DUD3QbKNzVqvD3/MYslA7aO3Ng7rALvqCdOUrmi2kpyRNkVQOtI5h6LnKx9FEtMoLRaA5YAsxXDXBh/WUQrN5OCoa18chI5zHkKRR7UCjdaIENJKWePDt2jOs2PaQnrIcScVMXn7gLLS6yUMxcZnvKmLxoJ6C4lFE/MzI2LMIeuZSbrcIPgO/xIN6SqPxoMRj1/qi0+CUig+5m2dapnW+nlIsWfraw2IYxmkhxXJau609oNvP9rWEuRQJqnJsDMaznhWNghUYRpi1qqBA/o9tD/tzo+IzLmA6zxTT2AUu4kFjFkOskT3N9mYJkqALhuNbn+fZ4bMusT+HYpr8zfEVedYb+XTpsOXjbzMzcgCaHYuK7/1nHsPnJDgvBWewjoyLoxmT82mq07JwUe7MkCHHZYai2MzPSYBezWLQFCuM9zZLxP1npakzTxla/sWMShDCYe/g4GjOrKDnXtA7fu02SMIEbWa0ABnKlmK1OjNpoNSHjk+AXtei7AxaV2ZGtCBKh7LXOuzFhAy0FnQcwxf5dkAsRZpCY0lnCIrASp2zTik2KBJEHMNX9XEElhI4jiRnxUOSSFMUm47rJCRiGb7UNzwWX0dxCk/5csBLfvhp1d/RifCyH358BoIvSQ/hH/81pP8HX7R6mr9ZFK/l26v/9C/LLbAS/dPwir4OmFiFGF+PAC+xbGt8Fd8FvIN/+pdW0ce4/+lfy00s6YOr6eSr+sbqPfz3X61+/Xj0h+On6L1O+7uPJ389/qUf/DF4tCD/NuKbwiMkmU79rcQ3heQCovz7srsG0JzNM/0PIHcDNDYdkEZA/0BD+1911FtjjTXWWGONNdZYY4011ng6+Evc3zjjINg4vZ2f2o5+3r3GvSNv7eRj9y4HfELXeV5NFvv5aqHQc3NldZdXdbTLld7lEXQpoUsSOtatf83Xo235ip5KlHdcVdLLv+YvUXE1fUdP8Gp0Zb3M6+q3ev5r/Vt5V41u1eff1fOFvJso9xOh3lfzR/Vv9e/RvXYkdydVqReq9UpqJ6GrS+XI64lU9dQwWrZtmwc9ld9Vt6Id7GhgyPbvR9Jls/L7/9saGBME5nl+o9HX+a03x5ebDHR6Pkz09cnRul7u/S630LDEkI8YqvqJ0TSOTwQgX05Ijd9s2xA1dPBWw61ku03FsI2g2ympu8ujqPNlPpkf2dFHKUzTE4Oft1Q32tXPD3wT98VaCqSCnprPDxzLjBYTtHBLNM710C1v9YypJfjEwWkvDCOK5UxCGg98S/SG1ckVM+UwK4qiYlTdsp5ww4yIW0Mzh3ZJ6i+BGMHDnVbzo7q7RIZ8pnoM1/VEz4IHV0x5r89HOpnahF/bXSco6dGGBF8dOH60uK6FVtjxWgduX0pkbPES6HzTD/LJicwzYWPkOMOuKV7o/IRhrgMN+elTcITaLMwoju+YUVdj5t+TRW0R4MrNg+V1QKoSXzeib8UYzabRUnDvh7e9MlimzmdgO1qI0x6DJUZqVjBMER8OfzPNoeHAOUZdBYZG9FxGEBgt0VPQxOgyEnlfkqoDRcR9xzfyoa67PC8ls1FT4COtDLbeGw5FxWRVXUqdiaJpiiLoKFp5SvFaJylXVaWlUCxn3qIvwhndL5Wtb1lZxIN6UkLOh++0REVEiwGP+lJkFsAQtHO77ya3MvsBWnSvlkyoGRlkZ1f0TObbeAgtpfh7Kd5VE2pZ2/OH3lDEFb8Gv0FRpVw2mv6u2AcpHprQhOubsCvZNuBGjnFaqBy9P4VnUDwjvyyG7lYbbmPZe64kubqa2RtU9TChum6ubwK5f41wEbcL0o47YQim1s3slne/F/dlaJdu+s0Vwy29vxP2Ljwc94J6uSyBaX2zFUU8QzPTg1657IK+XDIEU9wvQ9sqiOGGK/W3LbDvwVgIw3KoZcEp4OJF6ru7FHfD66PJI2xtqXy5nOm13TKIEHz+vq1Yyi/vDREXz1KR84gYWm/VXXD030tDINZir2XIu66b2aogKeLn/Z1dXtJPxK4l109gt9HRy6AHNwy940rmmmG5KiP/km2Ud7b6ak6rtRxFBM2WlsJw52gAz2F/CSUJgpDkvoGQ6+plfSt1gZti812vKSp489suf8VQ3O7v6lJf6jfRZ4JuGG4l1K3+7u6PoqVY2yUUVDMtS7G7qTry04clFCYvGbaQLl+U+AnDnLv1H0sEyWdyOjQsRK9eAOZs/6zuLEVLc3/4io8bldzl74kbVN2dvAI2t6dtnItDq5mVtq4YWoelMOF+z71HXm+Uumao8m5C6odVtAqDkdmSdOmjYonKgUt1wcaMP3hwVxOG1pfAV0y/xvYjO8zp6VNcEa3Nq0dIcCMcGu8kpy8lvZH+AHdiGqXy7c3ljZpleXaV36lDSMOH+o0MzYaraT3wNBArP/OXDGXEUJUy3/MThqq0k9qGcBfkQ74zhOiytyFFngZCSqvQlkXPVApaxDClCyPw2K1seN3qZ2Af1iarL4Ngwi20FKtrVG4zdHcqTdG0hm64q731FKu1L10ytBxzOGwGso0jTXp3j2HhmmGh+YNinWpl/d1vvuU1v4WuOmFoFHLnPyhDf3h0w9CxlPNrGabOFNwBmfaXwlD6JoMM5cLt9tLVjq8oYPt6aaNj44ryQbhm6FiW44nwlyeP9VsMdUmVPiKGCijkxgVoGmQvKVc7Q3Nqs7lIS2UcMcyAHorKaKKlfC46YCRc3pzXTAc5njCxFC3NZQIFR22d6PfBxySSECvA2DPbvuLgo9Hoz4s/kcEZ31xpoqURvKHpKMo4B+0CDNFywhW1DFF9RxuhpbBPc3r4zbA+QSi9GF18+BfoNj7MXEYL0FKXz8uig3wqkmEi97EFsdX46vb7CVXV3YJsKV27Wl4OQ95FawPi9rj4fdfVebY6yuzwrtRGk5lBVB4kipYjOsqPWnjpaTxI0Ado5b0TbTfBXzKUK31IUnZy7yFKisYY2ulEjBIwwBD9Q5HbyYmnseSC6ib3DbitFUULPffNAJNwtks7YaPxPSwFaAUKJbOzHE+TCOuyj74ZdlLJlXP5v2Tlg5vICBfQxIbZjVa1wiGNwoffdiYMlcP8t6/1FqQdx3mJv2aYyUG80dqB50BmWuLLPdnHTXwyl1v0RTRn3Z1iuKud2OCIIhny5UwNbgcU87kdlT3aRgHa/5wqL8fT6JJ7ICPJyMHoA5QvlujsZVRIzxTLGxiXxRIkm8pHlY/sEKJFWSqeGIrv/LnlXjM8yWaz510ZdxxzsF/Wwy8iWnZBbrVasixD5mo5cp2/0lJelcLSCOXvyA7BgntDBWX0g9PPn09t9HlB520pEWW3S2Cow71AJ0wFj2oLNLu8UjzxHcX6z7fKUb4COIcEXNzWdpIoL/WGjbDPZwILfMYv4RVDeO4WKjlwB7ez+k4ffYHNMsaVqDJ+V4G8aQhVGGIIXqmwuwUmeYT0FMmw399VC7JoIn8A11CgkeAZyjoqXJcDvrQ3ANcPrkOxfPBwlXIPiVDO6+VQQt0K8CwQs6uhCwy7vpkp67tbEORMsD5I8HrXq5iCk8XFwTiVgMAPDhjkoKLTy/3yGK1LK5e+h1lQb7uA7Mst/4HWQ7G6UZ0UQoETtS8qU5zWsB4utTMjdMdDA0QCZc1w+2NGVbPo8wfbGviRKOFOfmgp3g8fUuUClADW24YEFtUberLlf4gs7nJtcmgU4/ivd24OUr49r+uJ5/okyqrl3jEc0+po6rlsGROG6o52PnQcZVtDvyCFq0Hthi5kiXLWDZcTC6/Ah1KjejIamaOTP9TvUPHVzjb/+nFf4i8NwX2/ublZ2+u5+bMf/9qslco8pJ37Z5ubf50Wynxm8xrZaiYMUVHd24Pj/v3tqleprHXQ7oPkTvvsr83TekQbSoraJhwW3YMv80Ll4+bI7I42P5aS5fJy+6N0nQ9zEtQGuRyv9ne2dnjQz1SI0qzoRt9DKakmU1s74S48lw6qp7o8OjqEHD0jZXKXCBG9PmTPoN0hnypdtRDk3NF+3S1nwkzZjTRQyiRCPUyG7g46JNT7fBjmUqqaKn4PeV0P4x/3aRyjDjJefYPKVKgUddSPxCcu+wz70Aa6C7qpu1t6yE90Nyz3++iczFVzq+go+Bt+Q+TO6VC6X/Vg6ZPYXYaAW4btE6mpKqqw+Ex0CPyp9/u6hPQG/uYTmSUzXGONNdZYY4011lhjjTWejP8DWnJzG8UXZlsAAAAASUVORK5CYII="
+                                            class="img_crd" />
+                                    </div>
+                                    <p class="l_card center_card_color">Bitcoin is a decentralized digital currency,
+                                        without a central bank or single administrator,
+                                        that can be sent from user to user on the peer-to-peer
+                                        bitcoin network.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="d-flex flex-row justify-content-start l_card center_card_color">
+                                    <div>
+                                        <img src="https://res.cloudinary.com/dp0ed3fv9/image/upload/v1631646198/vechain_zalv4i.png"
+                                            class="img_crd" />
+                                    </div>
+                                    <p class=" l_card center_card_color">Bitcoin is a decentralized digital currency,
+                                        without a central bank or single administrator,
+                                        that can be sent from user to user on the peer-to-peer
+                                        bitcoin network.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="d-flex flex-row justify-content-start l_card center_card_color">
+                                    <div>
+                                        <img src="data:image/png;base64,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"
+                                            class="img_crd" />
+                                    </div>
+                                    <p class="l_card center_card_color">Bitcoin is a decentralized digital currency,
+                                        without a central bank or single administrator,
+                                        that can be sent from user to user on the peer-to-peer
+                                        bitcoin network.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="d-flex flex-row justify-content-start l_card center_card_color">
+                                    <div>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/TRON_icon.png"
+                                            class="img_crd" />
+                                    </div>
+                                    <p class=" l_card center_card_color">Bitcoin is a decentralized digital currency,
+                                        without a central bank or single administrator,
+                                        that can be sent from user to user on the peer-to-peer
+                                        bitcoin network.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end container-fluid wid_1">
+                <div class="row">
+                    <div class="col-6">
+                        <p class=" l_card sze col_text">
+                            The bitcoin blockchain is a
+                            public ledger that records bitcoin transactions.
+                            It is implemented as a chain of blocks, each block
+                            containing a hash of the previous block up to the genesis block[c] of the chain.
+                            A network of communicating nodes running bitcoin software maintains the blockchain.
+                            Transactions of the form payer X sends Y bitcoins to payee Z
+                            are broadcast to this network using readily available software applications.
+                            <br>
+                            <br>
+                            The domain name bitcoin.org was
+                            registered on 18 August 2008. On 31 October 2008, a link to
+                            a paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer
+                            Electronic Cash System was posted to a cryptography mailing list.
+                            Nakamoto implemented the bitcoin software as open-source code and released
+                            it in January 2009. Nakamoto's identity remains unknown.
+
+                            On 3 January 2009, the bitcoin network was created when Nakamoto mined the
+                            starting block of the chain, known as the genesis block. Embedded in the
+                            coinbase of this block was the text "The Times 03/Jan/2009 Chancellor on brink
+                            of second bailout for banks". This note references a headline published by
+                            The Times and has been interpreted as both a timestamp and a comment on the
+                            instability caused by fractional-reserve banking.
+                            <br>
+
+                            The receiver of the first bitcoin transaction was Hal Finney,
+                            who had created the first reusable proof-of-work system (RPoW) in 2004.
+                            Finney downloaded the bitcoin software on its release date, and on 12 January 2009
+                            received ten bitcoins from Nakamoto. Other early cypherpunk supporters were
+                            creators of bitcoin predecessors: Wei Dai, creator of b-money, and Nick Szabo, creator of
+                            bit gold.
+                            In 2010, the first known commercial transaction using bitcoin
+                            occurred when programmer Laszlo Hanyecz bought two Papa John's pizzas for ₿10,000.
+
+                            Blockchain analysts estimate that Nakamoto had mined about one million bitcoins
+                            before disappearing in 2010 when he handed the network alert key and
+                            control of the code repository over to Gavin Andresen. Andresen later
+                            became lead developer at the Bitcoin Foundation.
+                            Andresen then sought to decentralize control.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="container-fluid wid">
+                <div class="row">
+                    <div class=col-7>
+                        <!--<div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-row justify-content-start v_mar">
+                                <iframe width="850" height="450" src="https://www.youtube.com/embed/8NgVGnX4KOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>-->
+                        <p class=" l_card sze col_text">
+                            The bitcoin blockchain is a
+                            public ledger that records bitcoin transactions.
+                            It is implemented as a chain of blocks, each block
+                            containing a hash of the previous block up to the genesis block[c] of the chain.
+                            A network of communicating nodes running bitcoin software maintains the blockchain.
+                            Transactions of the form payer X sends Y bitcoins to payee Z
+                            are broadcast to this network using readily available software applications.
+                            <br>
+                            <br>
+                            The domain name bitcoin.org was
+                            registered on 18 August 2008. On 31 October 2008, a link to
+                            a paper authored by Satoshi Nakamoto titled Bitcoin: A Peer-to-Peer
+                            Electronic Cash System was posted to a cryptography mailing list.
+                            Nakamoto implemented the bitcoin software as open-source code and released
+                            it in January 2009. Nakamoto's identity remains unknown.
+
+                            On 3 January 2009, the bitcoin network was created when Nakamoto mined the
+                            starting block of the chain, known as the genesis block. Embedded in the
+                            coinbase of this block was the text "The Times 03/Jan/2009 Chancellor on brink
+                            of second bailout for banks". This note references a headline published by
+                            The Times and has been interpreted as both a timestamp and a comment on the
+                            instability caused by fractional-reserve banking.
+                            <br>
+                            <br>
+                            The receiver of the first bitcoin transaction was Hal Finney,
+                            who had created the first reusable proof-of-work system (RPoW) in 2004.
+                            Finney downloaded the bitcoin software on its release date, and on 12 January 2009
+                            received ten bitcoins from Nakamoto. Other early cypherpunk supporters were
+                            creators of bitcoin predecessors: Wei Dai, creator of b-money, and Nick Szabo, creator of
+                            bit gold.
+                            <br>
+                            In 2010, the first known commercial transaction using bitcoin
+                            occurred when programmer Laszlo Hanyecz bought two Papa John's pizzas for ₿10,000.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-end container-fluid wid_1">
+                <div class="row">
+                    <div class="col-5">
+                        <div
+                            style="height:500px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;padding:1px;padding: 5px; margin:5px; width: 800px;">
+                            <div style="height:580px; padding:0px; margin:5px; width: 100%;"><iframe
+                                    src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505"
+                                    width="100%" height="536px" scrolling="auto" marginwidth="0" marginheight="0"
+                                    frameborder="0" border="0"
+                                    style="border:0;margin:0;padding:0;line-height:14px;"></iframe></div>
+                            <div
+                                style="color: #FFFFFF; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                                <a href="https://coinlib.io" target="_blank"
+                                    style="font-weight: 500; color: #FFFFFF; text-decoration:none; font-size:11px">Cryptocurrency
+                                    Prices</a>&nbsp;by Coinlib</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class=container-fluid>
+                <div class="row">
+                    <div class=col-7>
+                        <div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-row justify-content-start v_mar">
+                                <iframe width="680" height="399" src="https://www.youtube.com/embed/8NgVGnX4KOw"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-5">
+
+                        <!--- space left for cards-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-12">
+                        <h1 class="follow-us-section-heading">Follow Us</h1>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/navbar-logo-img.png"
+                        class="navbar-image" />
+                    <h1 class="footer-section-mail-id">crypto.tech</h1>
+                    <p class="footer-section-address">
+                        123 Unknown-Nagar, Vijaywada, India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
